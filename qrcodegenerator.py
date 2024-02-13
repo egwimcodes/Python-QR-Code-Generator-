@@ -1,5 +1,4 @@
 import qrcode
-import image
 
 qr = qrcode.QRCode(
     version= "05",
@@ -7,7 +6,7 @@ qr = qrcode.QRCode(
     border= "4"
 )
 
-data = "https://snowwisdom.com" # YOu can change the link here to what ever you want
+data = "https://egwimcodes.dev" # YOu can change the link here to what ever you want
 
 qr.add_data(data)
 qr.make(fit=True)
